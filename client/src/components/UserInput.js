@@ -15,7 +15,7 @@ function UserInput({ onRouteCalculated }) {
   const originAutocompleteRef = useRef(null);
   const destinationAutocompleteRef = useRef(null);
 
-  const API_KEY = 'AIzaSyAPT8Oe5NdeTfBZ2YAHzcAuB2AAtaomUbA';
+  const API_KEY = '';
   const { isLoaded, loadError } = useLoadScript({
     googleMapsApiKey: API_KEY,
     libraries,
